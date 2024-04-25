@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    width: 150px;
+    /* largura*/
+}
+
+.box {
+    padding: 25px;
+    /* espaçamento */
+}
+
+.link-voce {
+    color: red;
+    margin-left: 30px;
+    /* margem do lado esquerdo*/
+    font-size: 20px;
+    /* tamanho da fonte*/
+    cursor: pointer;
+}
+
+.link-voce:hover {
+    text-decoration: underline;
+    /* retirar o sublinhado */
+}
+
+.link-empresa {
+    color: black;
+    margin-left: 30px;
+    /* margem do lado esquerdo*/
+    font-size: 20px;
+    /* tamanho da fonte*/
+    cursor: pointer;
+}
+
+.link-empresa:hover {
+    text-decoration: underline;
+    /* retirar o sublinhado */
+}
+
+.background {
+    width: 100%;
+}
+
+h3 {
+    margin-left: 200px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+ul {
+    display: flex;
+    /* alinhamento e ajudar na ultilizaçõa e de outras funções como o Justify-content: center*/
+    justify-content: center;
+    gap: 30px;
+    /* distanciamento lateral */
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+li {
+    width: 190px;
+    height: 190px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 30px;
+    display: inline-block; /* alinha lado a lado*/
+    cursor: pointer;
+}
+
+
+.image-product {
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+.image-product:hover {
+    width: 80px;
+    
+}
+p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
